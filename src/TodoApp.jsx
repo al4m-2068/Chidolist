@@ -25,6 +25,10 @@ export default function ChidolistApp() {
     return (
         <>
             <div>
+                <div className="head">
+                    <h1>Chidolist</h1>
+                    <h2>by Abdul Malik | in React Learning</h2>
+                </div>
                 <span>
                     <input type="text" placeholder="Masukkan tugas" onChange={handleUbah} value={list} />
                     <button onClick={handleTambah}>Tambah Tugas</button>
