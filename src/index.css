@@ -1,0 +1,30 @@
+#root{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  ul {
+    width: 300px;
+    background-color: burlywood;
+    color: brown;
+  }
+  span {
+    display: flex;
+    gap: 8px;
+    button {
+      background-color: brown;
+      border-radius: 8px;
+      color: burlywood;
+      border: none;
+      padding-inline: 16px;
+      padding-block: 8px;
+      text-transform: uppercase;
+      cursor: pointer;
+      font-weight: bold;
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+  }
+}
