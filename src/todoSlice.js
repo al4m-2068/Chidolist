@@ -2,7 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 export const todoSlice = createSlice({
     name: 'chidolist',
-    initialState: ['Welcome', 'Welcome', 'Welcome', 'Welcome', 'Welcome', 'Welcome', 'Welcome', 'Welcome', 'Welcome', 'Welcome', 'Welcome', 'Welcome', 'Welcome', 'Welcome', 'Welcome', 'Welcome', 'Welcome', 'Welcome', 'Welcome', 'Welcome', ],
+    initialState: [],
     reducers: {
         tambahTugas: (state, action) => {
             state.push(action.payload)
